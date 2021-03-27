@@ -45,6 +45,10 @@
     background-size: cover;
     border-radius: 6px;
     margin-bottom: 100px;
+    &__bg-estacion{
+        background-image: url("../img/Estacionguanako.jpg");
+    background-size: cover;
+    }
     &__estacion img{
         width: 100%;
         height: auto;
