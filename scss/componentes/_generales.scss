@@ -1,0 +1,91 @@
+//Estilos generales
+*{
+    margin:0;
+    padding: 0;
+    box-shadow: border-box;
+}
+body{
+    font-family: $tipog-1;
+}
+
+
+.contenedor-principal{
+    width: 100%;
+    display: flex;
+} 
+.contenedor{
+    width: 95%;
+    margin:0 auto;
+}
+h1,h2,h3,h4{
+    padding:0;
+    margin:0;
+    font-family: $tipog-1;
+    text-transform: uppercase;
+}
+
+.actividades-indv{
+    width: 280px;
+    height:260px;
+    display: flex;
+    flex-direction: column;
+    background-color:$color-claro;
+    border-radius: 6px;
+    border:1px solid $color-neutro-3;
+    color:$color-neutro-11;
+    margin-right: 27px;
+    margin-bottom: 27px;
+    :hover{
+        color:$color-neutro-11;
+        text-decoration: none;
+    }
+} 
+
+.imagen-item{
+    width: 100%;
+    height: 150px; 
+    background-color: forestgreen;
+    position: relative;
+    img{
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+        object-position: top;
+        position: relative;
+    }
+}
+
+.icono-candado{
+    position: absolute;
+    background-color: rgba($color-neutro-10, .6);
+    z-index: 30;
+    padding:8px 10px; 
+    border-radius:42%;
+} 
+.icono-play{
+    z-index: 30;
+    position: absolute;
+    margin-top:55px;
+    margin-left: 100px;
+    opacity: .6;
+    
+}
+.texto-principal{
+    align-items: flex-end;
+}
+.breadcrumb1{
+    font-size: 14px; 
+    font-family: $tipog-2;
+}
+.breadcrumb1 span{
+    font-weight: bold;
+}
+.breadcrumb1__item{
+    color:$color-neutro-11;
+
+}
+.breadcrumb1__item:after{
+    content: "/ ";
+    font-size: 14px;
+
+}

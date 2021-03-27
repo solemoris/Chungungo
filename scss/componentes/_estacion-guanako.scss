@@ -1,0 +1,33 @@
+.hero{
+    width: auto;
+    height:500px;
+    background-image: url(../img/hero-Estacion-guanako.jpg);
+    background-size: cover;
+    background-position:top;
+    background-repeat: no-repeat;
+    position: relative;
+    &__parrafo{
+        font-family: $tipog-2;
+        font-size: 15px;
+        line-height: 21px;
+        position: relative;
+    }
+
+}
+.hero:before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(0deg, rgba(245,245,245,1) 0%, rgba(245,245,245,0.8127626050420168) 17%, 
+    rgba(245,245,245,0.4374124649859944) 43%, rgba(245,245,245,0.15449929971988796) 67%, rgba(245,245,245,0) 100%);
+}
+.tituloSegundario{
+    display:flex;
+}
+.titularTercero{
+    font-size: 17px;
+    font-weight: 700;
+}

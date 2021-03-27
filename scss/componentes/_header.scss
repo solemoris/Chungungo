@@ -1,0 +1,46 @@
+header{
+    width: 300px;
+    background-color:$color-claro;
+    height: 100vh;
+    padding: 54px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 100;
+    
+
+}
+.menu{
+    font-family: $tipog-2;
+    
+    &__lista{
+        margin-top:40px;
+        display: block;
+        list-style: none;
+    }
+    &__lista-item a{
+        text-decoration: none;
+        display: flex;
+        font-family: $tipog-2;
+        align-items: center;
+        margin:16px 0;
+        color:$color-neutro-11;
+
+    }
+    &__icono{
+        width: 24px;
+        height: 24px;
+        display: inline-block;
+        margin-right: 16px;
+    }
+}
+
+.mi-cuenta{
+    display: flex;
+    font-family: $tipog-2;
+    align-items: center;
+    margin-top: 150px;
+   &__hero{
+       margin-right: 16px;
+   }
+}  
