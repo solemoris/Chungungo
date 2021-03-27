@@ -200,8 +200,6 @@ main {
 .caja-imagen {
   position: relative;
   height: 195px;
-  background-image: url("../img/Estacionguanako.jpg");
-  background-size: cover;
   border-radius: 6px;
   margin-bottom: 20px;
 }
