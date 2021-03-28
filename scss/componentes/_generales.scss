@@ -14,7 +14,7 @@ body{
     display: flex;
 } 
 .contenedor{
-    width: 95%;
+    width: 100%;
     margin:0 auto;
 }
 h1,h2,h3,h4{
@@ -22,6 +22,12 @@ h1,h2,h3,h4{
     margin:0;
     font-family: $tipog-1;
     text-transform: uppercase;
+}
+
+.station-item {
+    background:white;
+    border: 1px solid silver;
+    border-radius: 6px;
 }
 
 .actividades-indv{
@@ -46,14 +52,43 @@ h1,h2,h3,h4{
     height: 150px; 
     background-color: forestgreen;
     position: relative;
-    img{
+    background-image:url(../img/Estacionguanako.jpg);
+    background-size: cover;
+    .payed-element {
+        background: url(../img/lock.svg) no-repeat center center rgba(0,0,0,.5);
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        left: 10px;
+        top:10px;
+        border-radius: 100%;
+    }
+    .play {
+        width: 64px;
+        height: 64px;
+        position: absolute;
+        left: 50%;
+        margin-left:-32px;
+        background: url(../img/play.svg);
+        top:50%;
+        margin-top:-32px;
+    }
+    .completion {
         width: 100%;
-        height: 150px;
-        object-fit: cover;
-        object-position: top;
-        position: relative;
+        height:6px;
+        display: block; // si es que está visto el video
+        position: absolute;
+        bottom:0;
+        background: rgba(0,0,0,.25);
+        .percentage {
+            width:90%;// cuanto del video se ha visto
+            height:6px;
+            display: block;
+            background: #f2110d;
+        }
     }
 }
+
 
 .icono-candado{
     position: absolute;
