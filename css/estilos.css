@@ -55,6 +55,7 @@ h1, h2, h3, h4 {
   position: relative;
   background-image: url(../img/Estacionguanako.jpg);
   background-size: cover;
+  background-position: center center;
 }
 .imagen-item .payed-element {
   background: url(../img/lock.svg) no-repeat center center rgba(0, 0, 0, 0.5);
