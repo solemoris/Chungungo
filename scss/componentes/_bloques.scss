@@ -96,5 +96,9 @@
 .texto-parrafo__intro{
     font-family: $tipog-2;
     font-size: 15px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width:100%;
 }
 

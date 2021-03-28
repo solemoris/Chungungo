@@ -131,6 +131,10 @@ h1, h2, h3, h4 {
   font-size: 14px;
 }
 
+body {
+  background-color: #f5f5f5;
+}
+
 header {
   width: 300px;
   background-color: #ffffff;
@@ -294,6 +298,10 @@ main {
 .texto-parrafo__intro {
   font-family: "Roboto", sans-serif;
   font-size: 15px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
 }
 
 .hero {
