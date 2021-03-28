@@ -1,24 +1,31 @@
 .formulario-busqueda{
-    width: 230px;
+    width: 100%;
     background-color: $color-claro;
     margin:16px 0;
     padding:4px;
     display: flex;
     justify-content: space-around;
     border-radius: 20px;
+    box-sizing: border-box;
+     color: #999;
     &__input{
         border:none;
-        border-right: 1px solid $color-neutro-8;
         text-align: left;
         background-color: transparent;
-        padding-right: 8px;
-        opacity: .3;
+        padding: 0 10px;
+        box-sizing: border-box;
+        width:100%;
+        color: #999;
     }
     &__icono{
         border:none;
         background-color: transparent;
         text-align: right;
+        margin-right: 10px;
     }
+}
+::placeholder {
+  opacity: .3;
 }
 .titular1{
     font-size:35px;

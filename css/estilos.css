@@ -158,26 +158,34 @@ main {
 }
 
 .formulario-busqueda {
-  width: 230px;
+  width: 100%;
   background-color: #ffffff;
   margin: 16px 0;
   padding: 4px;
   display: flex;
   justify-content: space-around;
   border-radius: 20px;
+  box-sizing: border-box;
+  color: #999;
 }
 .formulario-busqueda__input {
   border: none;
-  border-right: 1px solid #455A64;
   text-align: left;
   background-color: transparent;
-  padding-right: 8px;
-  opacity: 0.3;
+  padding: 0 10px;
+  box-sizing: border-box;
+  width: 100%;
+  color: #999;
 }
 .formulario-busqueda__icono {
   border: none;
   background-color: transparent;
   text-align: right;
+  margin-right: 10px;
+}
+
+::placeholder {
+  opacity: 0.3;
 }
 
 .titular1 {
