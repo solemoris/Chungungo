@@ -122,15 +122,10 @@ h1,h2,h3,h4{
 }
 .breadcrumb1__item{
     color:$color-neutro-11;
-
 }
 .breadcrumb1__item:after{
     content: "/ ";
     font-size: 14px;
-
-}
-body {
-    background-color: #f5f5f5;
 }
 #container-video-home{
     background-color:#202020;
@@ -142,15 +137,24 @@ h1.titular1 {
     font-size: 28px;
 }
 .headline-1 {
-    background-image: url(../img/icono-Estacion-titulo.svg);
-    background-repeat: no-repeat;
-    background-size: 25px;
-    padding-left: 30px;
-    background-position: left center;
+    font-size: 28px;
+}
+.icon-headline-1 {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    margin-top: 4px;
+    margin-right: 10px;
+  }
+.search-results {
+    background-image: url(../img/search-results.svg);
 }
 h2.headline-2{
     font-size: 22px;
     font-weight: bold;
+}
+.breadcrumb {
+    background-color: transparent;
 }
 
 @media screen and (max-width: 1024px) {
