@@ -172,6 +172,12 @@ h2.headline-2 {
     font-size: 25px;
   }
 }
+footer {
+  height: 150px;
+  background-color: #ececec;
+  width: 100%;
+}
+
 header {
   width: 320px;
   background-color: #ffffff;
