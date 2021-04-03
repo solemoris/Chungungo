@@ -5,79 +5,80 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/estilos.css">
-    <title>Chungungo-home</title>
+    <title>Experiencia</title>
 </head>
 <body>
     <div class="contenedor-principal">
-        <header class="d-none d-sm-block">
+        <!-- NAV -->
+        <header class="d-none d-sm-block shadow">
             <nav class="menu">
                 <div class="menu__logotipo">
-                    <img src="img/Chungungo.svg" alt="logotipo-empresa">
+                    <img src="img/logotipo-chungungo.svg" alt="Bienvenido a Chungungo" width="190">
                 </div>
                 <ul class="menu__lista">
-                   <li class="menu__lista-item"><a href="#"> 
-                       <span class="menu__icono">
-                           <img src="img/stations.svg" alt="">
-                       </span>Estaciones
-                       </a>
-                    </li>
-                   <li class="menu__lista-item"><a href="#"> 
-                       <span class="menu__icono">
-                           <img src="img/Cuentos.svg" alt="">
-                       </span> Cuentos
-                       </a>
-                    </li>
-                   <li class="menu__lista-item"><a href="#"> 
-                       <span class="menu__icono">
-                           <img src="img/stories-puppets.svg" alt="">
-                       </span> Cuentos con titeres
-                       </a>
+                    <li class="menu__lista-item"><a href="#"> 
+                        <span class="menu__icono">
+                            <img src="img/stations.svg" alt="">
+                        </span>Estaciones
+                        </a>
                     </li>
                     <li class="menu__lista-item"><a href="#"> 
-                       <span class="menu__icono">
-                           <img src="img/songs.svg" alt="">
-                       </span> Canciones
-                       </a>
+                        <span class="menu__icono">
+                            <img src="img/Cuentos.svg" alt="">
+                        </span> Cuentos
+                        </a>
                     </li>
                     <li class="menu__lista-item"><a href="#"> 
-                       <span class="menu__icono">
-                           <img src="img/poetry.svg" alt="">
-                       </span> Poesías y Juegos Verb
-                       </a>
+                        <span class="menu__icono">
+                            <img src="img/stories-puppets.svg" alt="">
+                        </span> Cuentos con títeres
+                        </a>
                     </li>
                     <li class="menu__lista-item"><a href="#"> 
-                       <span class="menu__icono">
-                           <img src="img/Conozcamos.svg" alt="">
-                       </span> Conozcamos a
-                       </a>
+                        <span class="menu__icono">
+                            <img src="img/songs.svg" alt="">
+                        </span> Canciones
+                        </a>
                     </li>
                     <li class="menu__lista-item"><a href="#"> 
-                       <span class="menu__icono">
-                           <img src="img/Manualidades.svg" alt="">
-                       </span> Manualidades
-                       </a>
+                        <span class="menu__icono">
+                            <img src="img/poetry.svg" alt="">
+                        </span> Poesías y trabalenguas
+                        </a>
                     </li>
                     <li class="menu__lista-item"><a href="#"> 
-                       <span class="menu__icono">
-                           <img src="img/Talleres.svg" alt="">
-                       </span> Talleres
-                       </a>
+                        <span class="menu__icono">
+                            <img src="img/Conozcamos.svg" alt="">
+                        </span> Conozcamos a
+                        </a>
                     </li>
                     <li class="menu__lista-item"><a href="#"> 
-                       <span class="menu__icono">
-                           <img src="img/Juegos.svg" alt="">
-                       </span> Juegos
-                       </a>
+                        <span class="menu__icono">
+                            <img src="img/Manualidades.svg" alt="">
+                        </span> Manualidades
+                        </a>
+                    </li>
+                    <li class="menu__lista-item"><a href="#"> 
+                        <span class="menu__icono">
+                            <img src="img/Talleres.svg" alt="">
+                        </span> Talleres
+                        </a>
+                    </li>
+                    <li class="menu__lista-item"><a href="#"> 
+                        <span class="menu__icono">
+                            <img src="img/Juegos.svg" alt="">
+                        </span> Juegos
+                        </a>
                     </li>
                     <li class="menu__lista-item"><a href="#">
-                       <span class="menu__icono">
-                           <img src="img/Otros.svg" alt="">
-                       </span> Otros
-                       </a>
+                        <span class="menu__icono">
+                            <img src="img/Otros.svg" alt="">
+                        </span> Otros
+                        </a>
                     </li>
                 </ul>
             </nav>
@@ -86,6 +87,7 @@
                 <p class="pt-3">Mi cuenta</p>
             </div>
         </header>
+        <!-- FIN NAV -->
         <main>
             <section class="bienvenida">
                 <div class="container">
@@ -103,13 +105,17 @@
             <section class="pt-4 pb-4 mb-5">
                 <div class="container">
                     <div class="row">
+                        <!--BREADCRUMB-->
                         <div class="breadcrumb1 col-12">
-                            <p><a class="breadcrumb1__item" href="index.html">Home </a> 
-                                <a class="breadcrumb1__item" href="#">Estaciones </a>
-                                <a class="breadcrumb1__item" href="#">Estación Guanako</a> 
-                                <span>Nombre de la experiencia</span> 
-                            </p>
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb p-0">
+                                  <li class="breadcrumb-item"><a href="#">Home</a></li>
+                                  <li class="breadcrumb-item"><a href="#">Estación</a></li>
+                                  <li class="breadcrumb-item active" aria-current="page"><span>Tipo de experiencia:</span> Nombre experiencia</li>
+                                </ol>
+                            </nav>
                         </div>
+                        <!-- FIN BREADCRUMB -->
                         <div class="col-12 hero-video-home center">
                             <video id="container-video-home"  width="" height="400" controls>
                                 <source src="video/canto-azulillo.mp4" type="video/mp4">
@@ -117,21 +123,22 @@
                                 Tu navegador no soporta video.
                             </video>
                         </div>
-                        <div class="col-12 pt-4 align-self-start caj-Titulo-Principal ">
-                            <!-- <span class="caj-Titulo-Principal__icono">
-                                <img src="img/icono-Estacion-titulo.svg" alt="">
-                            </span> -->
-                            <h1 class="titular1 headline-1">Nombre de la experiencia </h1>
+                        <!-- HEADLINE 1 -->
+                        <div class="col-12 align-self-start caj-Titulo-Principal pt-3">
+                            <span class="icon-headline-1 station-icon"></span>
+                            <h1 class="headline-1">Estación Guanako</h1>
                         </div>
+                        <!-- FIN HEADLINE 1 -->
                         <p class="hero__parrafo col-xs-12 col-lg-9">
                             Acompaña a Chungungo a recorrer todo el litoral central con experiencias enfocadas a la habilidad motriz y el aprendizaje de animales marinos Acompaña a Chungungo a recorrer todo el litoral central con actividades enfocadas a la habilidad motriz y el aprendizaje ...
                         </p>
+                        <a class="link-book col-8" href="#" class="col-8">¿Te gustó la estación Guanako? No te pierdas el libro</a>
                     </div>
                     <div class="row">
                         <div class="tituloSecundario col-12 mt-4 mb-2">
                             <h2 class="headline-2 pr-4">Continuar viendo</h2>
                         </div>
-                        <!--item de estacion-->
+                        <!-- MINIATURA DE ESTACIÓN -->
                         <div class="col-xs-12 col-sm-6  col-lg-4 mb-4">
                             <div class="station-item">
                                 <div class="imagen-item">
@@ -142,14 +149,13 @@
                                     </span>
                                 </div>
                                 <div class="texto-parrafo py-2 px-3">
-                                    <div class="texto-parrafo__titulo">
-                                        <h3 class="titularTercero pt-2"> la llama escupidora</h3>
-                                    </div>  
-                                    <p class="texto-parrafo__intro">Recoreremos junto nuestros amiguitos marinos todo el litoral </p>
+                                        <h3 class="headline-3 pt-2">La llama escupidora    </h3>
+                                    <p class="texto-parrafo__intro mt-1">Recoreremos junto nuestros amiguitos marinos todo el litoral</p>
                                 </div> 
                             </div>
                         </div>
-                        <!--item de estacion-->
+                        <!-- FIN MINIATURA DE ESTACIÓN -->
+                        <!-- MINIATURA DE ESTACIÓN -->
                         <div class="col-xs-12 col-sm-6  col-lg-4 mb-4">
                             <div class="station-item">
                                 <div class="imagen-item">
@@ -160,15 +166,14 @@
                                     </span>
                                 </div>
                                 <div class="texto-parrafo py-2 px-3">
-                                    <div class="texto-parrafo__titulo">
-                                        <h3 class="titularTercero pt-2"> la llama escupidora</h3>
-                                    </div>  
-                                    <p class="texto-parrafo__intro">Recoreremos junto nuestros amiguitos marinos todo el litoral </p>
+                                        <h3 class="headline-3 pt-2">La llama escupidora    </h3>
+                                    <p class="texto-parrafo__intro mt-1">Recoreremos junto nuestros amiguitos marinos todo el litoral</p>
                                 </div> 
                             </div>
                         </div>
-                        <!--item de estacion-->
-                        <div class="col-xs-12 col-sm-6  col-lg-4  mb-4">
+                        <!-- FIN MINIATURA DE ESTACIÓN -->
+                        <!-- MINIATURA DE ESTACIÓN -->
+                        <div class="col-xs-12 col-sm-6  col-lg-4 mb-4">
                             <div class="station-item">
                                 <div class="imagen-item">
                                     <span class="payed-element"></span>
@@ -178,15 +183,14 @@
                                     </span>
                                 </div>
                                 <div class="texto-parrafo py-2 px-3">
-                                    <div class="texto-parrafo__titulo">
-                                        <h3 class="titularTercero pt-2"> la llama escupidora</h3>
-                                    </div>  
-                                    <p class="texto-parrafo__intro">Recoreremos junto nuestros amiguitos marinos todo el litoral </p>
+                                        <h3 class="headline-3 pt-2">La llama escupidora    </h3>
+                                    <p class="texto-parrafo__intro mt-1">Recoreremos junto nuestros amiguitos marinos todo el litoral</p>
                                 </div> 
                             </div>
                         </div>
-                        <!--item de estacion-->
-                        <div class="col-xs-12 col-sm-6 col-lg-4 mb-4">
+                        <!-- FIN MINIATURA DE ESTACIÓN -->
+                        <!-- MINIATURA DE ESTACIÓN -->
+                        <div class="col-xs-12 col-sm-6  col-lg-4 mb-4">
                             <div class="station-item">
                                 <div class="imagen-item">
                                     <span class="payed-element"></span>
@@ -196,19 +200,31 @@
                                     </span>
                                 </div>
                                 <div class="texto-parrafo py-2 px-3">
-                                    <div class="texto-parrafo__titulo">
-                                        <h3 class="titularTercero pt-2"> la llama escupidora</h3>
-                                    </div>  
-                                    <p class="texto-parrafo__intro">Recoreremos junto nuestros amiguitos marinos todo el litoral </p>
+                                        <h3 class="headline-3 pt-2">La llama escupidora    </h3>
+                                    <p class="texto-parrafo__intro mt-1">Recoreremos junto nuestros amiguitos marinos todo el litoral</p>
                                 </div> 
                             </div>
                         </div>
-
-
+                        <!-- FIN MINIATURA DE ESTACIÓN -->
                     </div>
                 </div>
             </section>      
         </main>
     </div>
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="row py-4">
+                <div class="col-12 col-md-6 col-lg-6">
+                    <img src="img/logotipo-chungungo-grayscale.svg" alt="Eso fue Chungungo" width="120">
+                </div>
+                <div class="col-12 col-md-6 col-lg-6">
+                    <p class="text-right">Todos los derechos reservados© 2021 Chungungo SPA.</p>    
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- END FOOTER -->
+</body>
 </body>
 </html>
