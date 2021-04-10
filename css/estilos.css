@@ -73,7 +73,7 @@ h1, h2, h3, h4 {
   position: absolute;
   left: 50%;
   margin-left: -32px;
-  background: url(../img/play.svg);
+  background: url(../img/lock-play.svg);
   top: 50%;
   margin-top: -32px;
 }
@@ -144,6 +144,8 @@ h1.titular1 {
 
 .headline-1 {
   font-size: 28px;
+  font-weight: bold;
+  color: #c35623;
 }
 
 .icon-headline-1 {
@@ -151,20 +153,23 @@ h1.titular1 {
   height: 24px;
   display: inline-block;
   margin-top: 4px;
-  margin-right: 10px;
+  margin-right: 8px;
 }
 
-.search-results {
-  background-image: url(../img/search-results.svg);
+.station-icon {
+  background-image: url(../img/stations.svg);
 }
 
 h2.headline-2 {
   font-size: 22px;
-  font-weight: bold;
 }
 
 .breadcrumb {
   background-color: transparent;
+}
+
+a, a:hover {
+  color: #1323f5;
 }
 
 @media screen and (max-width: 1024px) {
@@ -174,8 +179,32 @@ h2.headline-2 {
 }
 footer {
   height: 150px;
-  background-color: #ececec;
+  background-color: #f4f4f4;
   width: 100%;
+  border-top: 1px solid #EBEBEB;
+  color: #b1b1b1;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: 14px;
+}
+
+.link-book {
+  font-size: 14px;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+h3.headline-3 {
+  font-size: 15px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 1.4em;
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  height: 3.2em;
+  /* exactly two lines */
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
 }
 
 header {
@@ -339,11 +368,16 @@ main {
 
 .texto-parrafo__intro {
   font-family: "Roboto", sans-serif;
-  font-size: 15px;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  font-size: 13px;
   overflow: hidden;
   width: 100%;
+  color: gray;
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  height: 2.75em;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
 }
 
 .hero {
@@ -365,11 +399,12 @@ main {
 .hero:before {
   content: "";
   width: 100%;
-  height: 100%;
+  height: 200px;
   position: absolute;
-  top: 0;
+  bottom: 0;
   left: 0;
-  background: linear-gradient(0deg, whitesmoke 0%, rgba(245, 245, 245, 0.812762605) 17%, rgba(245, 245, 245, 0.437412465) 43%, rgba(245, 245, 245, 0.1544992997) 67%, rgba(245, 245, 245, 0) 100%);
+  background: white;
+  background: linear-gradient(0deg, white 9%, rgba(255, 255, 255, 0) 100%);
 }
 
 .tituloSecundario {
