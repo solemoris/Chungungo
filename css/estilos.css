@@ -445,18 +445,18 @@ body#login *, body#recover-pass * {
   font-family: "Roboto", sans-serif;
 }
 
-.form-signin, .form-recover {
+.form-signin, .form-recover, .restore-pass {
   width: 100%;
   max-width: 330px;
   padding: 15px;
   margin: 0 auto;
 }
 
-.form-signin .checkbox, .form-recover .checkbox {
+.form-signin .checkbox, .form-recover .checkbox, .restore-pass .checkbox {
   font-weight: 400;
 }
 
-.form-signin .form-control, .form-recover .form-control {
+.form-signin .form-control, .form-recover .form-control, .restore-pass .form-control {
   position: relative;
   box-sizing: border-box;
   height: auto;
@@ -464,7 +464,7 @@ body#login *, body#recover-pass * {
   font-size: 16px;
 }
 
-.form-signin .form-control:focus, .form-recover .form-control:focus {
+.form-signin .form-control:focus, .form-recover .form-control:focus, .restore-pass .form-control:focus {
   z-index: 2;
 }
 
