@@ -138,17 +138,19 @@ h1.titular1 {
 .headline-1 {
     font-size: 28px;
     font-weight: bold;
-    color:$terracota;
 }
 .icon-headline-1 {
-    width: 24px;
-    height: 24px;
+    width: 30px;
+    height: 30px;
     display: inline-block;
-    margin-top: 4px;
-    margin-right: 8px;
+    margin-top: 0;
+    margin-right: 10px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
   }
 .station-icon {
-    background-image: url(../img/stations.svg);
+    background-image: url(../img/icons-menu/01-stations.svg);
 }
 h2.headline-2{
     font-size: 22px;
@@ -168,7 +170,7 @@ a, a:hover{
     h1.titular1 {
         font-size: 25px;
     }
-    
+
 }
 footer{
     height: 150px;
