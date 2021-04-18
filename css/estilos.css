@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -164,8 +165,13 @@ h2.headline-2 {
   font-size: 22px;
 }
 
-.breadcrumb {
-  background-color: transparent;
+.breadcrumb1 .breadcrumb {
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 30px;
+}
+
+.breadcrumb-item.active {
+  color: #212529;
 }
 
 a, a:hover {
@@ -209,6 +215,18 @@ h3.headline-3 {
 
 .cursor-pointer {
   cursor: pointer;
+}
+
+/** CSS FIXES para producción **/
+.menu__logotipo img  {
+  width: 130px;
+  margin: 50px auto 30px;
+  display: block;
+}
+
+nav.shadow-vertical-menu {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  border-right: #d7d7d7 1px solid;
 }
 
 header {
@@ -387,7 +405,7 @@ main {
 .hero {
   width: auto;
   height: 350px;
-  background-image: url(../img/hero-Estacion-guanako.jpg);
+  background-image: url(../img/arana.jpg);
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
