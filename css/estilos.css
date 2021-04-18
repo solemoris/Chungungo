@@ -434,6 +434,13 @@ main {
   position: relative;
 }
 
+@media screen and (max-width: 479px) {
+  .hero__parrafo {
+    height: 45px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
 .hero:before {
   content: "";
   width: 100%;
