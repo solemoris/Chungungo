@@ -108,7 +108,7 @@ h1,h2,h3,h4{
 .texto-principal{
     align-items: flex-end;
     position: absolute;
-    bottom:0;
+    bottom: -40px;
     width: 100%;
 }
 .breadcrumb1{
@@ -218,4 +218,9 @@ h3.headline-3{
 }
 .sidenav---navicon---3gCRo {
     margin-right: -10px impo !important;
+}
+
+/* BREADCRUMB */
+.breadcrumb-2 .breadcrumb{
+     background-color: transparent;
 }

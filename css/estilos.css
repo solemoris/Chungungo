@@ -112,7 +112,7 @@ h1, h2, h3, h4 {
 .texto-principal {
   align-items: flex-end;
   position: absolute;
-  bottom: 0;
+  bottom: -40px;
   width: 100%;
 }
 
@@ -237,6 +237,11 @@ h3.headline-3 {
 
 .sidenav---navicon---3gCRo {
   margin-right: -10px impo !important;
+}
+
+/* BREADCRUMB */
+.breadcrumb-2 .breadcrumb {
+  background-color: transparent;
 }
 
 header {
@@ -417,6 +422,7 @@ main {
   height: 350px;
   background-image: url(../img/arana.jpg);
   background-size: cover;
+  height: 400px;
   background-position: top;
   background-repeat: no-repeat;
   position: relative;
@@ -431,9 +437,9 @@ main {
 .hero:before {
   content: "";
   width: 100%;
-  height: 200px;
+  height: 280px;
   position: absolute;
-  bottom: 0;
+  bottom: -30px;
   left: 0;
   background: white;
   background: linear-gradient(0deg, white 9%, rgba(255, 255, 255, 0) 100%);
