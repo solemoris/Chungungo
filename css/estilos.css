@@ -224,7 +224,7 @@ h3.headline-3 {
   display: block;
 }
 
-nav.shadow-vertical-menu {
+.shadow.shadow-vertical-menu {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
   border-right: #d7d7d7 1px solid;
 }
