@@ -5,7 +5,7 @@
     box-shadow: border-box;
 }
 body{
-    font-family: $tipog-1;
+    font-family: $tipog-2;
 }
 
 
@@ -210,4 +210,9 @@ h3.headline-3{
 .shadow.shadow-vertical-menu {
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
     border-right: #d7d7d7 1px solid;
+}
+/** Iconos del menu**/
+.shadow.shadow-vertical-menu img.icon-vertical-menu, img.icon-vertical-menu {
+    width: 22px !important;
+    margin-top: 7px !important;
 }
