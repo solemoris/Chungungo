@@ -21,7 +21,7 @@
         background-color: transparent;
         text-align: right;
         margin-right: 10px;
-    }
+    } 
 } 
 ::placeholder {
   opacity: .3;
@@ -106,5 +106,11 @@
     -webkit-box-orient: vertical;
 }
 
+.bienvenida .dropdown.mr-2 .dropdown-menu {
+    background-color: $mostaza;
+}
+.bienvenida .dropdown.mr-2 .dropdown-menu a:hover {
+    background-color: $mostaza-2;
+}
 
 
