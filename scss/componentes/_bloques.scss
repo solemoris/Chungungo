@@ -1,7 +1,6 @@
 .formulario-busqueda{
     width: 100%;
     background-color: $color-claro;
-    margin:16px 0;
     padding:4px;
     display: flex;
     justify-content: space-around;
@@ -23,7 +22,7 @@
         text-align: right;
         margin-right: 10px;
     }
-}
+} 
 ::placeholder {
   opacity: .3;
 }

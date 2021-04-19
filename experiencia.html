@@ -89,19 +89,30 @@
         </header>
         <!-- FIN NAV -->
         <main>
+            <!-- BIENVENIDA -->
             <section class="bienvenida">
                 <div class="container">
-                    <div class="row text-center d-flex flex-row-reverse">
+                    <div class="row text-center d-flex flex-row-reverse py-3">
                             <form class="formulario-busqueda col-3" id="#">
                                 <input class="formulario-busqueda__input" type="text" placeholder="Buscar">
                                 <a class="formulario-busqueda__icono" href="#">
                                         <img src="img/lupa.svg" alt="">
                                 </a>
                             </form><!--fin form-->
-                            <p class="saludo col-8 text-right pt-3 justify-content-end">¡Hola Andrés!</p>
+                            <div class="dropdown mr-2">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  Dropdown
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                  <button class="dropdown-item" type="button">Action</button>
+                                  <button class="dropdown-item" type="button">Another action</button>
+                                  <button class="dropdown-item" type="button">Something else here</button>
+                                </div>
+                              </div>
                     </div> 
                 </div>
             </section>
+            <!-- FIN BIENVENIDA -->
             <section class="pt-4 pb-4 mb-5">
                 <div class="container">
                     <div class="row">
