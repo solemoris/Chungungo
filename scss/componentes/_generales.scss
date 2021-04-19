@@ -230,3 +230,10 @@ h3.headline-3{
 .breadcrumb-2 .breadcrumb{
      background-color: transparent;
 }
+.breadcrumb-item a{
+    color: $color-neutro-9;
+}
+.breadcrumb-item span, li.breadcrumb-item  {
+    color: $color-neutro-6 !important;
+    font-weight: bolder;
+}
