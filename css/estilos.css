@@ -146,6 +146,7 @@ h1.titular1 {
 .headline-1 {
   font-size: 28px;
   font-weight: bold;
+  color: #c35623;
 }
 
 .icon-headline-1 {
@@ -160,7 +161,7 @@ h1.titular1 {
 }
 
 .station-icon {
-  background-image: url(../img/icons-menu/01-stations.svg);
+  background-image: url(../img/stations.svg);
 }
 
 h2.headline-2 {
@@ -242,7 +243,7 @@ h3.headline-3 {
 }
 
 /* BREADCRUMB */
-.breadcrumb-2 .breadcrumb {
+.breadcrumb-container .breadcrumb {
   background-color: transparent;
 }
 
@@ -252,6 +253,15 @@ h3.headline-3 {
 
 .breadcrumb-item span, li.breadcrumb-item {
   color: #607D8B !important;
+  font-weight: bolder;
+}
+
+.hero .breadcrumb-item a {
+  color: black;
+}
+
+.hero .breadcrumb-item span, li.breadcrumb-item, .hero li.breadcrumb-item {
+  color: #c35623 !important;
   font-weight: bolder;
 }
 

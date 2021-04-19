@@ -138,6 +138,7 @@ h1.titular1 {
 .headline-1 {
     font-size: 28px;
     font-weight: bold;
+    color: $terracota;
 }
 .icon-headline-1 {
     width: 30px;
@@ -150,7 +151,7 @@ h1.titular1 {
     background-repeat: no-repeat;
   }
 .station-icon {
-    background-image: url(../img/icons-menu/01-stations.svg);
+    background-image: url(../img/stations.svg);
 }
 h2.headline-2{
     font-size: 22px;
@@ -227,7 +228,7 @@ h3.headline-3{
 }
 
 /* BREADCRUMB */
-.breadcrumb-2 .breadcrumb{
+.breadcrumb-container .breadcrumb{
      background-color: transparent;
 }
 .breadcrumb-item a{
@@ -235,5 +236,13 @@ h3.headline-3{
 }
 .breadcrumb-item span, li.breadcrumb-item  {
     color: $color-neutro-6 !important;
+    font-weight: bolder;
+}
+
+.hero .breadcrumb-item a{
+    color: black;
+}
+.hero .breadcrumb-item span, li.breadcrumb-item, .hero  li.breadcrumb-item  {
+    color: $terracota !important;
     font-weight: bolder;
 }
