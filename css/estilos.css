@@ -146,19 +146,21 @@ h1.titular1 {
 .headline-1 {
   font-size: 28px;
   font-weight: bold;
-  color: #c35623;
 }
 
 .icon-headline-1 {
-  width: 24px;
-  height: 24px;
+  width: 30px;
+  height: 30px;
   display: inline-block;
-  margin-top: 4px;
-  margin-right: 8px;
+  margin-top: 0;
+  margin-right: 10px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .station-icon {
-  background-image: url(../img/stations.svg);
+  background-image: url(../img/icons-menu/01-stations.svg);
 }
 
 h2.headline-2 {
@@ -183,7 +185,7 @@ a, a:hover {
     font-size: 25px;
   }
 }
-footer {
+footer.footerMain {
   height: 150px;
   background-color: #f4f4f4;
   width: 100%;
@@ -420,9 +422,9 @@ main {
 .hero {
   width: auto;
   height: 350px;
-  background-image: url(../img/arana.jpg);
+  background-image: url(../img/arana-1.png);
   background-size: cover;
-  height: 400px;
+  height: 350px;
   background-position: top;
   background-repeat: no-repeat;
   position: relative;
@@ -444,9 +446,9 @@ main {
 .hero:before {
   content: "";
   width: 100%;
-  height: 280px;
+  height: 200px;
   position: absolute;
-  bottom: -30px;
+  bottom: 0px;
   left: 0;
   background: white;
   background: linear-gradient(0deg, white 9%, rgba(255, 255, 255, 0) 100%);
